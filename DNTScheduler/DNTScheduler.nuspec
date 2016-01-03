@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>DNTScheduler</id>
+    <version>$version$</version>
+    <authors>Vahid Nasiri</authors>
+    <owners>Vahid Nasiri</owners>
+    <licenseUrl>https://github.com/VahidN/DNTScheduler/LICENSE.md</licenseUrl>
+    <projectUrl>https://github.com/VahidN/DNTScheduler/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>DNTScheduler is a super simple ASP.NET's background tasks runner and scheduler.</description>
+    <summary>DNTScheduler is a super simple ASP.NET's background tasks runner and scheduler.</summary>
+    <language>en-US</language>
+    <tags>Scheduler ASP.NET MVC Tasks Jobs</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release\NET40\*.dll" target="lib\net40" />
+    <file src="bin\Release\NET40\*.xml" target="lib\net40" />
+    <file src="bin\Release\NET45\*.dll" target="lib\net45" />
+    <file src="bin\Release\NET45\*.xml" target="lib\net45" />
+    <file src="bin\Release\NET451\*.dll" target="lib\net451" />
+    <file src="bin\Release\NET451\*.xml" target="lib\net451" />
+    <file src="bin\Release\NET452\*.dll" target="lib\net452" />
+    <file src="bin\Release\NET452\*.xml" target="lib\net452" />
+    <file src="bin\Release\NET46\*.dll" target="lib\net46" />
+    <file src="bin\Release\NET46\*.xml" target="lib\net46" />
+    <file src="bin\Release\NET461\*.dll" target="lib\net461" />
+    <file src="bin\Release\NET461\*.xml" target="lib\net461" />
+
+    <file src="readme.txt" target="" />
+  </files>
+</package>
