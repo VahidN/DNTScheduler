@@ -1,7 +1,4 @@
-﻿using System;
-using System.Net;
-
-namespace DNTScheduler.TestWebApplication.WebTasks
+﻿namespace DNTScheduler.TestWebApplication.WebTasks
 {
     public static class ScheduledTasksRegistry
     {
@@ -18,29 +15,6 @@ namespace DNTScheduler.TestWebApplication.WebTasks
             };
 
             ScheduledTasksCoordinator.Current.Start();
-        }
-
-        public static void End()
-        {
-            ScheduledTasksCoordinator.Current.Dispose();
-        }
-
-        public static void WakeUp(string pageUrl)
-        {
-            try
-            {
-                using (var client = new WebClient())
-                {
-                    client.Credentials = CredentialCache.DefaultNetworkCredentials;
-                    client.Headers.Add("User-Agent", "ScheduledTasks 1.0");
-                    client.DownloadData(pageUrl);
-                }
-            }
-            catch (Exception ex)
-            {
-                //todo: log ex
-                System.Diagnostics.Trace.WriteLine(ex.Message);
-            }
         }
     }
 }

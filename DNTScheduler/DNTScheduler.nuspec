@@ -26,6 +26,8 @@
     <file src="bin\Release\NET46\*.xml" target="lib\net46" />
     <file src="bin\Release\NET461\*.dll" target="lib\net461" />
     <file src="bin\Release\NET461\*.xml" target="lib\net461" />
+    <file src="bin\Release\NET462\*.dll" target="lib\net462" />
+    <file src="bin\Release\NET462\*.xml" target="lib\net462" />
 
     <file src="readme.txt" target="" />
   </files>

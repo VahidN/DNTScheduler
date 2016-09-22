@@ -34,7 +34,7 @@
     <DefineConstants>DEBUG;TRACE;NET40</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET40\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET40\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Framework)' == 'NET45' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -44,7 +44,7 @@
     <DefineConstants>TRACE;NET45</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET45\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET45\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Framework)' == 'NET45' And '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
@@ -56,10 +56,8 @@
     <DefineConstants>DEBUG;TRACE;NET45</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET45\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET45\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
-  
-  
   <PropertyGroup Condition=" '$(Framework)' == 'NET451' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <DebugType>pdbonly</DebugType>
@@ -68,7 +66,7 @@
     <DefineConstants>TRACE;NET451</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET451\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET451\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Framework)' == 'NET451' And '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
@@ -80,9 +78,8 @@
     <DefineConstants>DEBUG;TRACE;NET451</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET451\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET451\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
-  
   <PropertyGroup Condition=" '$(Framework)' == 'NET452' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <DebugType>pdbonly</DebugType>
@@ -91,7 +88,7 @@
     <DefineConstants>TRACE;NET452</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET452\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET452\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Framework)' == 'NET452' And '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -103,11 +100,9 @@
     <DefineConstants>DEBUG;TRACE;NET452</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET452\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET452\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
-  
-
-    <PropertyGroup Condition=" '$(Framework)' == 'NET46' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Framework)' == 'NET46' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -115,7 +110,7 @@
     <DefineConstants>TRACE;NET46</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET46\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET46\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Framework)' == 'NET46' And '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
@@ -127,10 +122,9 @@
     <DefineConstants>DEBUG;TRACE;NET46</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET46\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET46\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
-
-    <PropertyGroup Condition=" '$(Framework)' == 'NET461' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+  <PropertyGroup Condition=" '$(Framework)' == 'NET461' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
@@ -138,7 +132,7 @@
     <DefineConstants>TRACE;NET461</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET461\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET461\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Framework)' == 'NET461' And '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
@@ -150,10 +144,30 @@
     <DefineConstants>DEBUG;TRACE;NET461</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-	<DocumentationFile>bin\Release\NET461\DNTScheduler.XML</DocumentationFile>
+    <DocumentationFile>bin\Release\NET461\DNTScheduler.XML</DocumentationFile>
   </PropertyGroup>
-  
-  
+  <PropertyGroup Condition=" '$(Framework)' == 'NET462' And '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\$(Configuration)\$(Framework)\</OutputPath>
+    <DefineConstants>TRACE;NET462</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NET462\DNTScheduler.XML</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Framework)' == 'NET462' And '$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\$(Configuration)\$(Framework)\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NET462</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\NET462\DNTScheduler.XML</DocumentationFile>
+  </PropertyGroup>
   <PropertyGroup>
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
@@ -161,21 +175,34 @@
     <AssemblyOriginatorKeyFile>key.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Web" />
+    <Reference Include="WebActivatorEx, Version=2.0.0.0, Culture=neutral, PublicKeyToken=7b26dc2a43f6a0d4, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebActivatorEx.2.1.0\lib\net40\WebActivatorEx.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddModules.cs" />
+    <Compile Include="DNTSchedulerModule.cs" />
+    <Compile Include="PingTask.cs" />
     <Compile Include="ScheduledTaskTemplate.cs" />
     <Compile Include="JobsRunnerTimer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScheduledTasksCoordinator.cs" />
+    <Compile Include="ThisApp.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="DNTScheduler.nuspec">
       <SubType>Designer</SubType>
     </None>
     <None Include="key.snk" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="readme.txt" />
@@ -185,31 +212,32 @@
     <PostBuildEvent>
     </PostBuildEvent>
   </PropertyGroup>
- 
-  <Target Name="AfterBuild" >
+  <Target Name="AfterBuild">
     <CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target45" />
     <CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target451" />
-	<CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target452" />
-	<CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target46" />
-	<CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target461" />
-  </Target> 
-
+    <CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target452" />
+    <CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target46" />
+    <CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target461" />
+    <CallTarget Condition="'$(Framework)' == 'NET40'" Targets="Target462" />
+  </Target>
   <Target Name="Target45">
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="Framework=NET45" RunEachTargetSeparately="true" />
-  </Target> 
+  </Target>
   <Target Name="Target451">
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="Framework=NET451" RunEachTargetSeparately="true" />
-  </Target> 
+  </Target>
   <Target Name="Target452">
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="Framework=NET452" RunEachTargetSeparately="true" />
-  </Target> 
+  </Target>
   <Target Name="Target46">
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="Framework=NET46" RunEachTargetSeparately="true" />
-  </Target> 
+  </Target>
   <Target Name="Target461">
     <MSBuild Projects="$(MSBuildProjectFile)" Properties="Framework=NET461" RunEachTargetSeparately="true" />
-  </Target> 
-  
+  </Target>
+  <Target Name="Target462">
+    <MSBuild Projects="$(MSBuildProjectFile)" Properties="Framework=NET462" RunEachTargetSeparately="true" />
+  </Target>
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>

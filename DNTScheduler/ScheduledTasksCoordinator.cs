@@ -26,6 +26,7 @@ namespace DNTScheduler
         private ScheduledTasksCoordinator()
         {
             System.Web.Hosting.HostingEnvironment.RegisterObject(this);
+            _tasks.Add(new PingTask());
             _timer.Start();
         }
 
